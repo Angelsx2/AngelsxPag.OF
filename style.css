@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 20px;
+}
+main{
+    background-color: red;
+    display: flex;
+    padding: 100vh;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15vh;
+}
