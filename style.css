@@ -2,16 +2,39 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: white;
+    display: flexbox;
+    height: 100vh;
+}
 header{
     background-color: black;
-    padding: 20px;
+    height: 10vh;
 }
 main{
-    background-color: red;
-    display: flex;
-    padding: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    backdrop-filter: 10%;
+    height: 100vh;
+}
+.first{
+    background-image: url(/img/011101.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    color: white;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid black;
+}
+.second{
+    border: 5px solid black;
+    height: 35vh;
+}
+.third{
+    border: 5px solid black;
+    height: 30vh;
 }
 footer{
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 15vh;
+    height: 10vh;
 }
