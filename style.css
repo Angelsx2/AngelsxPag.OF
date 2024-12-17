@@ -11,21 +11,12 @@ header{
     background: linear-gradient(90deg,black,white,white,rgb(255, 255, 255),black);
     opacity: 0.8;
 }
-.navbar{
-    display: flex;
-    text-align: center;
-    background-color: black;
-    filter: contrast(80%);
-    color: white;
-    text-decoration: none;
-
-}
 li{
     float: left;
 }
 li a{
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(21, 43, 138);
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -75,16 +66,52 @@ aside{
 #i-am{
     font-size: 200%;
 }
-#profile-2{
+.sec-profile{
     border: solid white;
     padding: 10%;
 }
-#img-random{
-    
+.sec-random{
+    border: solid white;
+    padding: 10%;
 }
 .third{
-    padding: 20%;
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
     border: solid white;
+}
+select {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+select:focus {
+    border-color: #9d131e;
+    box-shadow: 0 0 20px rgba(185, 19, 66, 0.7);
+}
+.games{
+    border: solid #ffffff;
+    align-self: flex-start;
+}
+#whats-i-do{
+    font-size: 200%;
+}
+.games-info{
+    display: flex;
+    flex-direction: column;
+    border:  solid white;
+    height: 80vh;
+}
+#img-g{
+    display: flexbox;
+    border: solid wheat;
+}
+#img-game{
+    border: solid white;
+    padding: 20%;
 }
 footer{
     border: solid rgb(220, 56, 56);
